@@ -7,7 +7,7 @@
 > not a promised impact. **Churn here is a proxy** (no purchase in the 90 days after a cutoff), not an observed
 > cancellation.
 
-[![CI](https://github.com/Abhi237/customer-churn-clv/actions/workflows/ci.yml/badge.svg)](https://github.com/Abhi237/customer-churn-clv/actions/workflows/ci.yml)
+[![CI](https://github.com/Krushmi/customer-churn-clv/actions/workflows/ci.yml/badge.svg)](https://github.com/Krushmi/customer-churn-clv/actions/workflows/ci.yml)
 · SQL (DuckDB) · Python (scikit-learn, LightGBM, SHAP, lifetimes) · R (survival, survminer, Quarto)
 
 | | |
@@ -271,7 +271,7 @@ distinguishable from logistic regression on test; tertile risk bands are relativ
 Requirements: Python 3.11; R 4.3+ with `survival survminer dplyr readr ggplot2 knitr rmarkdown` and, for
 `make data`, the `completejourney` package (versions in `renv.lock`); Quarto 1.4+ for the HTML report.
 ```bash
-git clone https://github.com/Abhi237/customer-churn-clv.git && cd customer-churn-clv
+git clone https://github.com/Krushmi/customer-churn-clv.git && cd customer-churn-clv
 git checkout complete-journey
 make setup          # venv + pinned requirements + editable package
 make data           # fetch the CC0 data and convert to CSV in data/raw/completejourney (needs R)
