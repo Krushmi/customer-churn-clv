@@ -24,8 +24,7 @@
 A multipage Streamlit app (`app/streamlit_app.py`, light theme) presents the project for stakeholders. It reads
 **only** compact aggregated artifacts committed in `app/data/` (about 1.1 MB: summaries, curves, cohort and
 survival tables and the 2,314 scored households with features, probabilities, CLV, segments and precomputed
-SHAP values). No raw transactions, pipeline or ML libraries are needed at deploy time. The hosted app is
-deployed from `main`; it shows this grocery version once this branch is merged.
+SHAP values). No raw transactions, pipeline or ML libraries are needed at deploy time. The hosted app is deployed from `main` at [https://krushmi-customer-churn-clv.streamlit.app/](https://krushmi-customer-churn-clv.streamlit.app/).
 
 **Audience.** The app is written for a **retention marketing manager** deciding where next quarter's retention budget
 goes. The Executive summary opens with headline KPIs (households scored, churn-proxy rate, CLV at risk, expected
