@@ -14,7 +14,7 @@ import streamlit as st
 
 DATA = Path(__file__).resolve().parent / "data"
 DOCS = Path(__file__).resolve().parents[1] / "docs"
-REPO_URL = "https://github.com/Abhi237/customer-churn-clv"
+REPO_URL = "https://github.com/Krushmi/customer-churn-clv"
 MEMO_URL = f"{REPO_URL}/blob/main/docs/retention_memo.pdf"
 DATA_SOURCE = "https://github.com/bradleyboehmke/completejourney"
 TITLE_PREFIX = "Grocery Household Churn & CLV"
